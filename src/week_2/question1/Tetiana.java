@@ -24,7 +24,7 @@ public class Tetiana {
         int count = 0;
 
         while (x >= y){
-            x = x;
+            x = x - y;
             count++;
         }
         if( (dividend < 0 && divisor > 0) || (dividend > 0 && divisor < 0)){
