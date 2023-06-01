@@ -5,7 +5,7 @@ public class Antonio2 {
     public static void DivisibleBy(){
         String by15 = "";
         String by3 = "";
-        String by5 = "";
+        String by5 = "fghfghnj";
         for (int i = 1; i <= 100 ; i++) {
             if (i%15==0){
                 by15 += i+"; ";
