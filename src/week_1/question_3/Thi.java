@@ -1,6 +1,8 @@
 package week_1.question_3;
 
 public class Thi {
+
+    // Method for iterating FINRA, 2 options
     public static void iterateFINRA() {
         for (int i = 1; i <= 30; i++) { // 1. iterate number from 1 until 30 (including 30), increase iteration by 1.
 
