@@ -1,7 +1,37 @@
 package week_2.question2;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Thi {
-}
+
+    public static void divisible() {
+
+        // 1-3. create empty strings to hold the values for each category
+        String divisibleBy15 = "",
+                divisibleBy3 = "",
+                divisibleBy5 = "";
+        for (int i = 1; i <= 100; i++) { // 4. iterate all numbers from 1-100
+            if (i % 3 == 0 && i % 5 == 0 && i % 15 == 0) { // 5. if divisible by 3, 5, AND 15...update string with number and add space after
+                divisibleBy15 += i+" ";
+            } else if (i % 3 == 0) { // 6. if only divisible by 3...update string with number and add space after
+                divisibleBy3 += i+" ";
+            } else if (i % 5 == 0) { // 7. if only divisible by 5...update string with number and add space after
+               divisibleBy5 += i+" ";
+            }
+        }//for loop
+
+        // 8-10. print updated strings, use trim() to exclude the space after last number
+        System.out.println("divisibleBy15 = " + divisibleBy15.trim());
+        System.out.println("divisibleBy3 = " + divisibleBy3.trim());
+        System.out.println("divisibleBy5 = " + divisibleBy5.trim());
+    }//method
+
+    public static void main(String[] args) {
+        divisible();
+
+    }//main
+}//class
  /*
     Numbers -- Divisible by 3, 5, 15
 
