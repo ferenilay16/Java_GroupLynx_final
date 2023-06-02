@@ -3,6 +3,7 @@ package week_2.question1;
 public class Ayoub {
     public static void main(String[] args) {
         swap(2,3);
+        System.out.println(104^2);
     }
 
     public static void swap(int n1, int n2){
