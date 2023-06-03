@@ -4,7 +4,7 @@ public class Thi {
 
     public static String primeNumber(int num) {
 
-        // prime number can only be divided into a whole number by 1 and itself
+        // a prime number can only be divided into a whole number by 1 and itself
 
         // num should be greater than 1, otherwise can't be prime
         if (num <= 1)
