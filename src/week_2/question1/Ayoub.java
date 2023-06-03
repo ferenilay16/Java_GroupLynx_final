@@ -2,20 +2,18 @@ package week_2.question1;
 
 public class Ayoub {
     public static void main(String[] args) {
-        swap(2,3);
+     swap(155555,-85);
+
+
     }
 
-    public static void swap(int n1, int n2){
-        System.out.println(n1);
-        System.out.println(n2);
-        n1=n2;
-        n2=n1;
-        System.out.println(n1);
-        System.out.println(n2);
-        //I'm still working on it.
+    public static void swap(int a, int b){
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.println("a = " + a);;
+        System.out.println("b = " + b);
     }
-
-
 
 }
  /*
