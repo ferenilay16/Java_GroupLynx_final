@@ -26,6 +26,28 @@ public class Thi {
         }//if condition
     }//iterateReplace
 
+    public static void iterateReplace2(int N){
+        for (int i = 1; i <= N; i++) {
+            String output = "";
+
+            if (i % 2 == 0) {
+                output += "Codility";
+            }
+            if (i % 3 == 0) {
+                output += "Test";
+            }
+            if (i % 5 == 0) {
+                output += "Coders";
+            }
+
+            if (output.isEmpty()) {
+                System.out.println(i);
+            } else {
+                System.out.println(output);
+            }
+        }
+    }
+
     public static void main(String[] args) {
         iterateReplace(-20); // negative number, no iteration
         iterateReplace(20);
