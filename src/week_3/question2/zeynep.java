@@ -5,7 +5,7 @@ public class zeynep {
     public static int reverseNegativeNum(int n) {
         // Check if the number is negative
         if (n < 0) {
-            // Convert the number to a positive value
+            // change the number to a positive value
             n = -n;
 
             int reversed = 0;
