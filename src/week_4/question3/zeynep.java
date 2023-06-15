@@ -40,5 +40,7 @@ Ex: FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
         }
     }
 
+    //made changes
+
 
 
