@@ -3,8 +3,11 @@ package week_4.question1;
 public class Tetiana {
 
     public static void main(String[] args) {
+        frequencyOfCharacters("AAABBCDD");
+    }
 
-        String str = "AAABBCDD";
+    public static void frequencyOfCharacters(String str) {
+
         String result = ""; //A3B2C1D2
 
         for (int j = 0; j < str.length(); j++) {
