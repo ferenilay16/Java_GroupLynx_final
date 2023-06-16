@@ -1,4 +1,4 @@
-package week_4.question2;
+package week_4.question2_stringSameLetters;
 
 import java.util.HashMap;
 import java.util.Map;

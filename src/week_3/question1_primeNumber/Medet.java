@@ -1,4 +1,4 @@
-package week_3.question1;
+package week_3.question1_primeNumber;
 
 public class Medet {
 

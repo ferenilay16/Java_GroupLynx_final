@@ -1,4 +1,4 @@
-package week_4.question1;
+package week_4.question1_frequencyCharactors;
 
 import javax.xml.stream.events.Characters;
 import java.util.HashMap;
