@@ -1,4 +1,4 @@
-package week_3.question2;
+package week_3.question2_reverseNegativeNumber;
 
 import java.util.Scanner;
 
