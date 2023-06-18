@@ -1,4 +1,4 @@
-package week_4;
+package week_4.question2_stringSameLetters;
 
    /*
     String -- Same letters
