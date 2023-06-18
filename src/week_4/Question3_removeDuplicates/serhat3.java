@@ -1,4 +1,4 @@
-package week_4;
+package week_4.Question3_removeDuplicates;
 
 public class serhat3 {
     public static void main(String[] args) {
