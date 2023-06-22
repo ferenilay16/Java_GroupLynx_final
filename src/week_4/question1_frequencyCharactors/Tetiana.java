@@ -1,4 +1,4 @@
-package week_4.question1;
+package week_4.question1_frequencyCharactors;
 
 public class Tetiana {
 

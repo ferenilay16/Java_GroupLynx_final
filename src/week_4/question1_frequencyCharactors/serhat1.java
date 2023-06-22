@@ -1,4 +1,4 @@
-package week_4;
+package week_4.question1_frequencyCharactors;
 
 import java.util.Scanner;
 
