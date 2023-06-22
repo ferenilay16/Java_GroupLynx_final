@@ -9,7 +9,7 @@ public class zeynep {
     public static String findUniqueCharacters(String str) {
         String unique = "";
 
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < str.length(); i++) { //
             char each = str.charAt(i);
 
             if (str.indexOf(each) == str.lastIndexOf(each)) {
