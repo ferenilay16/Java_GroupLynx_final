@@ -1,11 +1,7 @@
-package week_6.Question1;
+package week_6.Question1_passwordValidation;
 
-public class Nilay {
-
-}
-
-
-/*
+public class Leena {
+    /*
     Password Validation Task:
   Write a return method that can verify if a password is valid or not. Requirements:
     1. Password MUST be at least have 6 characters and should not contain space,
@@ -16,3 +12,4 @@ public class Nilay {
 
 if all requirements above are met, the method returns true, otherwise returns false.
      */
+}

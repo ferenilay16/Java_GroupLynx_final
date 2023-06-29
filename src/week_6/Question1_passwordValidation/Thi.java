@@ -1,6 +1,7 @@
-package week_6.Question1;
+package week_6.Question1_passwordValidation;
 
-public class Leena {
+public class Thi {
+}
     /*
     Password Validation Task:
   Write a return method that can verify if a password is valid or not. Requirements:
@@ -12,4 +13,3 @@ public class Leena {
 
 if all requirements above are met, the method returns true, otherwise returns false.
      */
-}
