@@ -1,4 +1,4 @@
-package week_6.Question2;
+package week_6.Question2_findMax_IntArray;
 
 public class Antonio {
 

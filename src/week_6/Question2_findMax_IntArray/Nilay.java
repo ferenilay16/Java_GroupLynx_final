@@ -1,6 +1,4 @@
-package week_6.Question2;
-
-import java.util.Arrays;
+package week_6.Question2_findMax_IntArray;
 
 public class Nilay {
 
