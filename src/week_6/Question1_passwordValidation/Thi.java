@@ -4,7 +4,7 @@ public class Thi {
 //! INCOMPLETE
 
     public static boolean validPassword(String password){
-        if (password.length() <6 || password.contains(" ") || !password.matches("^?=.*[A-Z]") || !password.matches("^?=.*[a-z]") || !password.matches("^?=.*[!@#&()–[{}]:;',?/*~$^+=<>]].{8,20}$") || !password.matches("^?=.*[0-9]")){
+        if (password.length() <6 || password.contains(" ") || !password.matches(".*[A-Z]") || !password.matches(".*[a-z]") || !password.matches(".*[!@#$%^&*(),.?\":{}|<>].*") || !password.matches(".*[0-9]")){
             return false;
         }
         return true;
