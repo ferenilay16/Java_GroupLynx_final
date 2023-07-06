@@ -13,4 +13,12 @@ public class Antonio {
         return max;
     }
 
+<<<<<<< HEAD
+=======
+    public static void main(String[] args) {
+        int[] numbers = {5,89,14,65,23,73};
+        System.out.println(maxNum(numbers));
+    }
+
+>>>>>>> master
 }
