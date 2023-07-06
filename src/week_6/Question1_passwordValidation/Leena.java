@@ -12,6 +12,9 @@ public class Leena {
 
 if all requirements above are met, the method returns true, otherwise returns false.
      */
+<<<<<<< HEAD
+}
+=======
         public static void main(String[] args) {
 
         }
@@ -43,3 +46,4 @@ if all requirements above are met, the method returns true, otherwise returns fa
     }
 
 
+>>>>>>> master
