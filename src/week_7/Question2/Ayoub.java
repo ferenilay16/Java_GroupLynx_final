@@ -3,7 +3,7 @@ package week_7.Question2;
 import java.util.Arrays;
 public class Ayoub {
 
-    public static void newSortMethod(int[] arr){
+    public static int[] ascendingMethod(int[] arr){
         for (int j = 0; j <arr.length-1 ; j++) {
             for (int i = 0; i < arr.length - 1; i++) {
                 if (arr[i] > arr[i + 1]) {
@@ -17,13 +17,13 @@ public class Ayoub {
             }
         }
 
-        System.out.println(Arrays.toString(arr));
+        return arr;
     }
 
 
     public static void main(String[] args) {
         int[] list = {10, 91,0,2, 8, 7};
-        newSortMethod(list);
+        System.out.println(Arrays.toString(ascendingMethod(list)));
 
 
     }
