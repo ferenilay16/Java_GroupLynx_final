@@ -1,4 +1,4 @@
-package week_4.Question3;
+package week_4.Question3_removeDuplicates;
 
 public class Tetiana {
 
