@@ -8,8 +8,7 @@ public class Leena {
   Ex: "A3v15" = > 3 + 1 + 5 = 9
         return 9
      */
-<<<<<<< HEAD
-=======
+
     public  static int  sumOfDigits(String s) {
         int total = 0;
         char[] ch =  s.toCharArray();
@@ -21,5 +20,5 @@ public class Leena {
         return total;
     }
 
->>>>>>> master
+
 }
