@@ -20,6 +20,9 @@ public class Thi {
         return max;
     }
 
+    //public static int maxNumberArray2(int[] arr){
+    //use sort()
+    //}
 
     public static void main(String[] args) {
         int[] arrTest = {3,100,5,2,40};
