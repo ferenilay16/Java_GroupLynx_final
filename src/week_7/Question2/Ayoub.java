@@ -7,20 +7,14 @@ public class Ayoub {
         for (int j = 0; j <arr.length-1 ; j++) {
             for (int i = 0; i < arr.length - 1; i++) {
                 if (arr[i] > arr[i + 1]) {
-
                     int n = arr[i];
                     arr[i] = arr[i + 1];
                     arr[i + 1] = n;
-
                 }
-
             }
         }
-
         return arr;
     }
-
-
     public static void main(String[] args) {
         int[] list = {10, 91,0,2, 8, 7};
         System.out.println(Arrays.toString(ascendingMethod(list)));
