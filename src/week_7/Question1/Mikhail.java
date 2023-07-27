@@ -2,8 +2,8 @@ package week_7.Question1;
 
 public class Mikhail {
 
-    public class SmallestInArrayExample {
-        public void int getSmallest(int[] a, int total) {
+
+        public static int getSmallest(int[] a, int total) {
             int temp;
             for (int i = 0; i < total; i++) {
                 for (int j = i + 1; j < total; j++) {
@@ -26,4 +26,3 @@ public class Mikhail {
 
 
     }
-}
