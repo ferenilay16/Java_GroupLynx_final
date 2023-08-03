@@ -6,11 +6,23 @@ public class Antonio {
 
     // Concat two Arrays
 
-        public static int[] twoArrays (int[]arr1, int[]arr2){
+        public static int[] twoArrays (int[]arr1, int[]arr2) {
 
             int[] result = new int[arr1.length + arr2.length];
 
-            for (int i = 0; i < arr1.length; i++) {
+            int i = 0;
+            for (int each : arr1) {
+                result[i] = each;
+                i++;
+            }
+            for (int each : arr2) {
+                result[i] = each;
+                i++;
+            }
+            return result;
+        }
+
+         /*   for (int i = 0; i < arr1.length; i++) {
                 result[i] = arr1[i];
             }
             for (int i = 0; i < arr2.length; i++) {
@@ -18,6 +30,8 @@ public class Antonio {
             }
             return result;
         }
+
+          */
 
         public static void main(String[] args) {
             int[] first = {1,2,3};
